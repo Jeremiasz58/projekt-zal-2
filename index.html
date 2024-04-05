@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script> function imgChange(){ 
+        let i = 1;
+        let img = document.getElementById('theme-img');
+        img.src="img/theme-d";
+        return false;
+        } </script> 
+</head>
+<body>
+    
+    <div class="coll-menu">
+        <input type="checkbox" id="menu">
+        <label for="menu">Menu</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="#"></a>s1</li>
+                <li><a href="#"></a>s2</li>
+                <li><a href="#"></a>s3</li>
+                <li><a href="#"></a>s4</li>
+                <li><a href="#"></a>s5</li>
+            </ul>
+        </div>
+    </div>
+
+<button id="theme-btn" onclick="imgChange();">
+
+    <img src="img/theme-l.svg" id="theme-img" alt="Przycisk w postaci ikony księżyca, służy do zmiany motywu strony z jasnego na ciemny i spowrotem.">
+
+</button>
+
+
+
+</body>
+</html>
