@@ -1,12 +1,20 @@
-# projekt-zal-2
+# Projekt zaliczeniowy: 2
 
-podsumowanie 2 lat nauki,
-form, wiekszosc poznanych elementow
-oddech na stronie
+Podsumowanie dwóch lat nauki tego przedmiotu.
+Większość poznanych elementów - formularz, tabela etc.
+Cechy witryny:
+- "Oddech" na stronach,
+- w miarę skomplikowany formularz,
+- tematyka raczej dowolna
 
-sprawdzony pod koniec Maja
-
-display block na element a, bo jest on srodliniowy
+Termin: koniec Maja
 
 
-https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm - parallax scroll
+
+
+https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm - parallax scroll)
+
+https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp - dark mode X
+
+!!!'Display: block;' na element a, bo jest on śródliniowy.!!!
+X - JS
