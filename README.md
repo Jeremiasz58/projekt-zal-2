@@ -16,7 +16,6 @@ Termin: koniec Maja
 
 https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm - parallax scroll)
 
-https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp - dark mode X
 
 Zamiana obrazka (JS): ---
 <script>
