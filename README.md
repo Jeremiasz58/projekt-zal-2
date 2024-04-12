@@ -16,7 +16,7 @@ Termin: koniec Maja
 
 https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm - parallax scroll)
 
-
+scroll? https://www.youtube.com/watch?v=KAG5wNPdoTw
 Zamiana obrazka (JS): ---
 <script>
 function imgChange()
