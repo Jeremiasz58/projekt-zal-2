@@ -16,17 +16,10 @@ https://colorhunt.co/palette/f3eeeaebe3d5b0a695776b5d
 
 https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm - parallax scroll)
 
-https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp - dark mode X
 
-Zamiana obrazka (JS): ---
-<script>
-function imgChange()
-{
-document.getElementById('img_id').src="path");
-}
-</script>
----
 
+
+<!--  600px, 1000px, responsywnosc z bootstrapa ("4 punkty przelamania") -->
 
 !!!'Display: block;' na element a, bo jest on śródliniowy.!!!
 X - JS
