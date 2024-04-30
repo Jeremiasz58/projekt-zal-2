@@ -10,8 +10,9 @@ BODY{
 }
 
 .nav-btns{
-    width: 400px;
+    display:flex;
 }
+
 #nav-header{
     width: 400px;
     text-align: center;
@@ -36,6 +37,7 @@ header{
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+    flex-wrap: wrap;
 }
 
 #selected{
@@ -47,3 +49,10 @@ header a:hover{
     color: #c4c4c4;
     transition: 100ms;
 }
+
+
+@media only screen and (max-width: 1165px) {
+    header{
+        flex-direction: column;
+    }
+  }
