@@ -1,51 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Doppio+One');
+
 BODY{
-    font-family:sans-serif ;
+    font-family: 'Doppio One', sans-serif;
+    background-image: url('../img/index/guitars_bw4.png');
+      background-size: 1920px 1080px;
+  background-position:top;
+    background-repeat: no-repeat;
+    background-color: #48474c;
 }
 
-nav{
-    width: 25%;
+.nav-btns{
+    width: 400px;
+}
+#nav-header{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+    color: white;
 }
 
-ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    width: 30%;
-  }
-
-/*   
-li{
-    
-    
-} */
-
+header a{
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    width: 80px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
 header{
-    width: 100%;
-    
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-  
-  a{
-      color: black;
-      text-decoration: none;
-      display: block;
-  }
+#selected{
+    text-decoration: underline;
+}
 
 
-
-
- header{
-     position: relative;
- }
- header > *{
-     margin: auto;
-     margin-top: 25px;
- }
-
-#top-title{
-    width: 30%;
-    margin: 0;
-    padding: 0;
+header a:hover{
+    color: #c4c4c4;
+    transition: 100ms;
 }
