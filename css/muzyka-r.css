@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1315px) {
+
+
+    #woody {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    #woody div h1 {
+        text-align: center;
+    }
+
+    #woody div p {
+        text-align: justify;
+    }
+}
