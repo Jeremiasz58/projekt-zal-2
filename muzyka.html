@@ -4,40 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <!-- , initial-scale=1.0 -->
     <title>Muzyka</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/6aa023538a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/muzyka-r.css">
+    <script src="js/scroll-top.js" async></script>
 </head>
 
 <body id="muzyka">
     <style>
         BODY {
-            background-color: #d9d9d9d9;
+            background-color: #d8d8d8d8;
             background-image: none;
-        }
-
-        #nav-header {
-            color: black;
-        }
-
-        a {
-            color: black;
-        }
-
-        a:hover {
-            color: white;
-            transition: 100ms;
         }
     </style>
 
 
     <header>
         <div class="nav-btns">
-            <a href="#" class="nav-a">O mnie</a>
-            <a href="muzyka.html" class="nav-a" id="selected">Muzyka</a>
-            <a href="#" class="nav-a">Kontakt</a>
+            <a href="o_mnie.html" class="nav-a">O mnie</a>
+            <a href="muzyka.html" class="nav-a selected">Muzyka</a>
+            <a href="kontakt.html" class="nav-a">Kontakt</a>
         </div>
         <a href="index.html" id="nav-header">JEREMIASZ MĄDRY</a>
 
@@ -56,14 +45,14 @@
         <div>
             <h1>WOODY JACKSON</h1>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum, velit itaque possimus
-                porro
-                praesentium pariatur aperiam accusamus illo placeat veritatis tenetur dolore ut earum ab a delectus
-                dignissimos natus tempora quidem totam deleniti dolor soluta quisquam! Vitae consequuntur laboriosam
-                cupiditate pariatur, at est accusamus hic et rem culpa incidunt itaque consequatur excepturi aut?
-                Quis
-                quia
-                eum sed esse voluptatum a excepturi, sunt optio. Placeat eos est qui temporibus voluptatibus.</p>
+            <p>Jest on osobą, dzięki której w ogóle zainteresowałem się muzyką. Jako kompozytor zasłynął ze
+                scieżek
+                dźwiękowych do gier takich jak Red Dead Redemption, czy Grand Theft Auto V. Za jego największe
+                osiągnięcie uważam
+                ambienty przygrywające losowo w obu Red Dead'ach w zależności od lokacji i pory dnia. Jest to moim
+                zdaniem niesamowite, jak proste fragmenty muzyczne potrafią wznieść immersję w świecie gry na nowy
+                poziom. Nigdy nie uświadczyłem czegoś podobnego w jakiejkolwiek innej produkcji.
+            </p>
         </div>
     </article>
     <footer>
@@ -74,60 +63,199 @@
         <a href="https://www.imdb.com/name/nm0414150/" target="_blank" class="nav-a"><i
                 class="fa-brands fa-imdb woody_icons"></i></a>
     </footer>
+    <div class="black">
 
-    <!-- <section id="tracks">
-        <h1>WYBRANE UTWORY</h1>
-        <ul id="track-list">
+        <section id="tracks">
+            <h1>WYBRANE UTWORY</h1>
+
             <div class="track-group">
-                <li><iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/71tjUqsaiFFKWpn8xhoPWh?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
-                <li><iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/6JSZq2FkHOZGZ5hV85fBa2?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
-                <li><iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/4BL3XnXe40ZS2YuRXWS4wX?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
-            </div>
-            <div class="track-group">
-                <li><iframe style="border-radius:12px"
+
+
+                <div class="track-list">
+                    <iframe style="border-radius:12px"
                         src="https://open.spotify.com/embed/track/3mYybPwqsyCI3EfrfZLbSa?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
+                        width="100%" height="152" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
-                <li><iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/4gUcpROAdXmFFvwpmyurSo?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
+                        loading="lazy" scrolling="no"></iframe>
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/71tjUqsaiFFKWpn8xhoPWh?utm_source=generator"
+                        width="100%" height="152" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
+                        loading="lazy" scrolling="no"></iframe>
+                </div>
 
 
-
-                <li><iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/track/4dCijzEgPnTwOYPCT3ATcL?utm_source=generator"
-                        width="35%" height="152" frameBorder="0" allowfullscreen=""
+                <div class="track-list">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/56wSQCknk5Fp0gOt9EaT2e?utm_source=generator"
+                        width="100%" height="152" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe></li>
+                        loading="lazy" scrolling="no"></iframe>
+
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/2f62mi4053v8aekZyYlEgI?utm_source=generator"
+                        width="100%" height="152" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy" scrolling="no"></iframe>
+
+                </div>
+
             </div>
 
-        </ul>
-        
-
-    </section>
-
- -->
 
 
+        </section>
+        <section id="video1">
+            <!-- <img src="img/muzyka/rdr-logo.png" id="rdr-logo" alt=""> -->
+
+            <iframe class="vid" width="560" height="315"
+                src="https://www.youtube.com/embed/fVfczLhb7yY?si=0l-s2WgH5sh6jxDY" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+    </div>
+    <h1 id="awards-title">NAGRODY I NOMINACJE</h1>
+    <div class="resp-table">
+        <table>
+            <tr>
+                <th>DATE</th>
+                <th>AWARD/PUBLICATION</th>
+                <th>CATEGORY</th>
+                <th>WORK</th>
+                <th>RESULT</th>
+            </tr>
+
+
+            <TR>
+                <td>December 10th, 2010</td>
+                <td>Inside Gaming Awards</td>
+                <td>best original score</td>
+                <td rowspan="10">red dead redemption</td>
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>December 11th, 2010</td>
+                <td>spike video game awards</td>
+                <td>best original score</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>december 20th, 2010</td>
+                <td>GameSpot</td>
+                <td>best original music</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+                <td rowspan="7">march 3rd, 2011</td>
+                <td rowspan="6">game audio network guild awards</td>
+                <td style="text-transform: none;">Audio of the Year</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+
+
+                <td style="text-transform: none;">Music of the Year</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+
+                <td>best interactive score</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+
+
+                <td style="text-transform: none;">Rookie of the Year</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+
+
+                <td>best soundtrack album</td>
+
+                <td>nominated</td>
+            </TR>
+            <TR>
+
+
+                <td>best original instrumental ("main theme")</td>
+
+                <td>nominated</td>
+            </TR>
+            <TR>
+
+                <td>game developers choice awards</td>
+                <td>best audio</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>december 7th, 2013</td>
+                <td>VGX</td>
+                <td>best soundtrack</td>
+                <td>grand theft auto v</td>
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>december 6th, 2018</td>
+                <td>the game awards</td>
+                <td>best score/music</td>
+                <td rowspan="6">red dead redemption 2</td>
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>december 10th, 2018</td>
+                <td>titanum awards</td>
+                <td>best original soundtrack</td>
+
+                <td>won</td>
+            </TR>
+            <TR>
+                <td>January 22nd, 2019</td>
+                <td>new york game awards</td>
+                <td style="text-transform: none;">The Pan Alley Award for Best Music in a Game</td>
+
+                <td>nominated</td>
+            </TR>
+            <TR>
+                <td>march 16th, 2019</td>
+                <td>SXSW gaming awards</td>
+                <td style="text-transform: none;">Excellence in Musical Score</td>
+
+                <td>nominated</td>
+            </TR>
+            <TR>
+                <td>march 20th, 2019</td>
+                <td>game developers choice awards</td>
+                <td>best audio</td>
+
+                <td>nominated</td>
+            </TR>
+            <TR>
+                <td>november 20th, 2019</td>
+                <td style="text-transform: none;">Hollywood Music in Media Awards</td>
+                <td>soundtrack album</td>
+
+                <td>won</td>
+            </TR>
+        </table>
+    </div>
 
 
 
+    <button class="scroll-top"><i class="fa-solid fa-angle-up"></i></button>
 
+
+    <h2 class="footer-author">&copy; JEREMIASZ MĄDRY 2024</h2>
 
 
 </body>
