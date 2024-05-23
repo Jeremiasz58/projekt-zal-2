@@ -10,16 +10,21 @@ BODY {
     background-size: 1920px 1080px;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: #48474c;
+    background-color: #727272;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+
 }
 
 .nav-btns {
     display: flex;
 }
 
+
+
 #nav-header {
-    width: 400px;
+    width: auto;
     text-align: center;
     margin: auto;
     font-size: 2.5rem;
@@ -39,14 +44,84 @@ a {
 header {
     display: flex;
     justify-content: center;
-
+    margin-top: 8px;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     flex-wrap: wrap;
 }
 
-#selected {
+#kontakt-b #nav-header {
+    color: black;
+}
+
+.footer-author {
+    position: static;
+    bottom: 0px;
+    margin: 60px;
+    text-align: center;
+}
+
+footer i {
+    text-align: center;
+}
+
+#kontakt-b a {
+    color: black;
+}
+
+#kontakt-b a:hover {
+    color: white;
+    transition: 100ms;
+}
+
+.scroll-top:hover {
+    cursor: pointer;
+    opacity: 100%;
+    bottom: 70px;
+
+
+}
+
+.inst {
+    width: 600px;
+}
+
+.scroll-top {
+    position: fixed;
+    right: 180px;
+    bottom: 50px;
+    width: 50px;
+    height: auto;
+    font-size: 8rem;
+    border: none;
+    opacity: 80%;
+    background: none;
+    color: white;
+    mix-blend-mode: difference;
+    transition: 400ms ease-in-out;
+}
+
+#muzyka #nav-header {
+    color: black;
+}
+
+#muzyka a {
+    color: black;
+}
+
+#muzyka a:hover {
+    color: white;
+    transition: 100ms;
+}
+
+* h1 {
+    text-transform: uppercase;
+}
+
+
+
+.selected {
     text-decoration: underline;
 }
 
@@ -57,9 +132,176 @@ a:hover {
 }
 
 
+.black {
+    background-color: black;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #80808080;
+
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #808080b1;
+
+}
+
+#jesse {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 120px;
+    margin: auto;
+
+
+}
+
+
+
+#jesse h1 {
+    font-size: 4rem;
+
+}
+
+#jesse h1 {
+    margin: 0;
+}
+
+#jesse p {
+    font-size: 1.2rem;
+}
+
+#woody {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 120px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#woody div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+#woody h1 {
+    font-size: 4rem;
+
+}
+
+#woody h1 {
+    margin: 0;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.woody_icons {
+    font-size: 2rem;
+}
+
+.part {
+    height: 100vh;
+}
+
+.back-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#tracks {
+    margin-top: 200px;
+    position: relative;
+    padding: 5px;
+    height: 1080px;
+    background-image: url(../img/muzyka/jackson-guitar.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+}
+
+.resp-table {
+    overflow-x: auto;
+
+}
+
+#woody div p {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+#muzyka .resp-table {
+    margin: auto;
+    margin-top: 42.88px;
+    margin-bottom: 42.88px;
+}
+
+#muzyka .track-list {
+    display: flex;
+    gap: 150px;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+#muzyka .track-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 150px;
+}
+
+#woody img {
+    width: 360px;
+    height: auto;
+}
+
+
+
+
+.vid {
+    border: black solid 6px;
+}
+
+
+
+
 @media only screen and (max-width: 1165px) {
     header {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .scroll-top {
+        right: 51.5%;
     }
 }
 
@@ -70,6 +312,24 @@ a:hover {
         padding: 0;
     }
 
+
+}
+
+
+
+@media only screen and (max-width: 776px) {
+
+    #muzyka .track-group {
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 745px) {
+
+    #muzyka .track-group {
+        gap: 20px;
+    }
 
 }
 
@@ -91,111 +351,9 @@ a:hover {
 
     }
 
+
     header a {
         font-size: 1rem;
     }
 
-}
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: white;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #80808080;
-
-}
-
-::-webkit-scrollbar-thumb:active {
-    background-color: #808080b1;
-
-}
-
-#woody {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 120px;
-}
-
-#woody div {
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 25px;
-
-}
-
-#woody h1 {
-    font-size: 4rem;
-    margin: 0;
-}
-
-#muzyka footer {
-    display: flex;
-    justify-content: center;
-    height: auto;
-}
-
-#muzyka .woody_icons {
-    font-size: 2rem;
-}
-
-.part {
-    height: 100vh;
-}
-
-.back-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-
-#tracks {
-    margin-top: 200px;
-    position: relative;
-    padding: 5px;
-    height: 945px;
-    background-image: url(../img/muzyka/jackson-guitar.jpg);
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center;
-}
-
-#tracks h1 {
-    font-size: 4rem;
-    color: white;
-    margin-left: 75px;
-
-}
-
-#track-list {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
-
-iframe {
-    width: 450px;
-    overflow: hidden;
-
-}
-
-#muzyka .track-group {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
-
-#woody img {
-    width: 360px;
-    height: auto;
 }

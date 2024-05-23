@@ -1,0 +1,141 @@
+form h1 {
+    font-size: 3.5rem;
+    margin: auto;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    color: white;
+}
+
+body {
+    background-color: #d8d8d8d8;
+    background-image: url(../img/kontakt/mandola.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+
+
+#f-email {
+    width: 250px;
+}
+
+#f-i-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+    gap: 20px;
+    width: 450px;
+}
+
+
+form legend {
+
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+form input {
+    padding: 5px;
+    width: 180px;
+    height: 50px;
+    font-weight: bolder;
+
+
+}
+
+textarea {
+    font-weight: bolder;
+    margin-top: 20px;
+    height: 220px;
+    padding: 5px;
+}
+
+
+
+#f-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    gap: 50px;
+}
+
+
+
+form h1 {
+    color: black;
+}
+
+form * {
+    color: black;
+    opacity: 95%;
+}
+
+form textarea {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+form select {
+    cursor: pointer;
+}
+
+#f-groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-group {
+    height: 350px;
+}
+
+form h3 {
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#f-btns button {
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+#f-btns button:hover {
+    cursor: pointer;
+}
+
+form {
+
+
+
+    margin: auto;
+    margin-top: 100px;
+
+    width: 75%;
+
+    height: 580px;
+
+}
+
+
+
+@media only screen and (max-width: 1450px) {
+
+
+    form h1 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}

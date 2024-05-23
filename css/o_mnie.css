@@ -1,0 +1,82 @@
+#jesse h1,
+p {
+    color: white;
+
+}
+
+#jesse h1 {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+#jesse p {
+    text-align: justify;
+    width: 650px;
+    font-weight: normal;
+}
+
+.scroll-top {
+    color: white;
+    mix-blend-mode: normal;
+}
+
+body {
+    background-image: url(../img/o-mnie/szti1_72.jpg);
+    background-position: 0px 100px;
+
+    background-repeat: no-repeat;
+}
+
+
+
+footer {
+    display: flex;
+    margin-top: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+footer a {
+    width: 500px;
+}
+
+#szti-img {
+    display: inline;
+    width: 200px;
+    margin: auto;
+    transition: 200ms ease-in-out;
+}
+
+#szti-img:hover {
+    scale: 1.1;
+}
+
+#woody h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+    #woody div h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #woody div p {
+        font-size: 1rem;
+    }
+}
